@@ -1,4 +1,4 @@
-package day28_DateTime;
+package training_mine.Date_Time;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -13,7 +13,6 @@ public class TimeMine {
 
         System.out.println(time2);  // 18:30:45
 
-        //time2.
 
 
 

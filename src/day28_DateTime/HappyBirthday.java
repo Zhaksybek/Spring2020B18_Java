@@ -4,6 +4,11 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 public class HappyBirthday {
 
+    public static void main(String[] args) {
+        HappyBirthDay(1993,4,24);
+    }
+
+
     public static void HappyBirthDay(int year, int month, int day){
         LocalDate birthday = LocalDate.of(year, month, day);
         LocalDate today = LocalDate.now();
