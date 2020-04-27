@@ -19,6 +19,19 @@ public class As_157 {
 
     }
 
+    public static int calcPlus(int a,int b){
+        return a+b;
+
+    }
+
+    public static int calcMinus(int a,int b){
+        return a-b;
+
+    }
+
+
+
+
 
 
 }// class
