@@ -1,4 +1,4 @@
-package training_mine.WrapperClass;
+package training_mine.WrapperClass_ArrayListMine;
 
 public class UniqueValue {
 
