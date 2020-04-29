@@ -48,6 +48,8 @@ public class ArrayList_Practice2 {
 
         Collections.sort(list2);
 
+        // Collections and Collection not same
+
         System.out.println(list2);
 
 
