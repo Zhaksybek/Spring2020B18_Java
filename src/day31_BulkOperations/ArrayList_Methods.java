@@ -1,6 +1,6 @@
 package day31_BulkOperations;
 
-import java.util.ArrayList;
+import java.util.*;
 import java.util.Collections;
 
 public class ArrayList_Methods {
@@ -32,25 +32,39 @@ public class ArrayList_Methods {
 
         // ============================================================'
 
-        ArrayList<Integer> list3 = new ArrayList<>();
+        //Arrays.equal(arr1, arr2)
 
+        int[] arr1 = {1,2,3};
+        int[] arr2 = {3,2,1};
+        Arrays.sort(arr1);  //{1,2,3}
+        Arrays.sort(arr2); //{1,2,3}
+
+        boolean r3 = Arrays.equals(arr1, arr2);
+        System.out.println(r3);
+
+        System.out.println("=============================");
+        ArrayList<Integer> list3 = new ArrayList<>();
         list3.add(10);
         list3.add(100);
         list3.add(1000);
-        list3.add(200);
-        list3.add(110);
+        list3.add(20);
+
+        //  expected: 1000 100 20 10
 
         Collections.sort(list3);
 
-        ArrayList<Integer> revList = new ArrayList<>();
+        System.out.println(list3);
 
-        for (int i=list3.size()-1; i>=0;i--){
-            revList.add( list3.get(i)  );
+        ArrayList<Integer> reversedList3 = new ArrayList<>();
 
+        for(int i =list3.size()-1; i >= 0;  i--){
+            //  System.out.print( list3.get(i) +" " );
+            reversedList3.add( list3.get(i) );
         }
 
-        System.out.println(revList);
-       // list3 = revList;
+        System.out.println(reversedList3);
+
+        //  list3 = reversedList3;
 
         System.out.println(list3);
 

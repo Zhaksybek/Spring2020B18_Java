@@ -16,12 +16,7 @@ public class Revers_2D_Arr_AS_33 {
         System.out.println(Arrays.toString(revers2));
 
 
-     /*
-        for (int j = 0; j < arr.length; ++j) {
-            result[j] = reverseString(arr[j]);
-        }
-        System.out.println(Arrays.toString(result));
-*/
+
         System.out.println("==============================================");
         System.out.println(Arrays.toString(reverse(arr)));
 
