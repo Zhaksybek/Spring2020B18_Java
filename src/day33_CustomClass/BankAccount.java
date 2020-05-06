@@ -18,6 +18,11 @@ public class BankAccount {
     }
 
     public void withDraw(double amount){
+        boolean balBool = amount>balance;
+        if (balBool){
+            System.out.println("35$ penalty charge");
+        }
+
         System.out.println("Withdrawing $"+amount);
         balance -= amount;
     }
