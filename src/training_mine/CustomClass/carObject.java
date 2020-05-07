@@ -1,6 +1,5 @@
 package training_mine.CustomClass;
 
-
 import day33_CustomClass.Car;
 
 public class carObject {

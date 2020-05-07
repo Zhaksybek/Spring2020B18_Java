@@ -7,7 +7,9 @@ public class Tester {
     String jobTitle;
     double salary;
 
-    public  void setTesterInfo(String name,long employeeID,String jobTitle,double salary){
+   //instance  variables
+
+    public  void setTesterInfo(String name, long employeeID, String jobTitle, double salary){
         this.name=name;
         this.employeeID=employeeID;
         this.jobTitle=jobTitle;
@@ -15,8 +17,10 @@ public class Tester {
     }
 
     public String toString(){
-        return  "Name: "+name+ ", Job Title: "+jobTitle+
+
+        return   "Name: "+name+ ", Job Title: "+jobTitle+
                 ", employee Id: "+employeeID+", salary: "+salary;
+
     }
 
 

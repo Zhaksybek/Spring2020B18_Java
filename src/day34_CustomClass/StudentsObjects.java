@@ -7,6 +7,7 @@ public class StudentsObjects {
 
     public static void main(String[] args) {
         Student student1 = new Student();
+
         student1.setStudentInfo("Adam", "Englad", 34,3.5, 'M',true);
 
         Student student2 = new Student();
@@ -22,6 +23,9 @@ public class StudentsObjects {
 
 
         ArrayList<Student> canGraduate = new ArrayList<>( Arrays.asList(students) );
+        //ArrayList<Student> canGraduate = new ArrayList<>( Arrays.asList(student1,student2,student3,student4) );
+
+
         canGraduate.removeIf( p -> p.gpa <= 3.0 );
 
         System.out.println(canGraduate.size());
@@ -34,6 +38,7 @@ public class StudentsObjects {
         System.out.println("=========================================================");
 
         ArrayList<Student> canNotGraduate = new ArrayList<>(  Arrays.asList(students) );
+
         canNotGraduate.removeIf( p -> p.gpa > 3.0);
         System.out.println(canNotGraduate.size());
 
