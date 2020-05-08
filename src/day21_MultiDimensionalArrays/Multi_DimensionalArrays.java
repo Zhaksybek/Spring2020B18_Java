@@ -7,7 +7,7 @@ public class Multi_DimensionalArrays {
 
 //                           0  1  2       0  1  2  3
         int[][] arr2D = {  { 1, 2, 3} ,  { 4, 5, 6, 7}   };
-        //            0      ,       1
+        //                       0      ,       1
 
         System.out.println( arr2D.length );
 
