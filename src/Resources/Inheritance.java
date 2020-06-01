@@ -14,6 +14,9 @@ public class Inheritance extends Data {
         //System.out.println( TestData.privateData ); // private can never be inherited
 
 
+        // Protected only visible to child Class
+
+
 
 
     }
